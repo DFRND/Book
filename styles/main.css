@@ -24,13 +24,19 @@ header {
 }
 
 .header-content-block h1 {
-  font-size: 8.25em;
+  font-size: 5.25em;
+}
+.header-content-block span{
+  color : #fff;
+
 }
 
 #bio {
   min-height: 45vh;
   display: flex;
   align-items: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
 }
 
 #bio h1 {
@@ -50,12 +56,12 @@ header {
 #comp h2 {
   text-align: left;
   margin-top: 16px;
-margin-left: 34px;
+margin-left: 18px;
 }
 #comp p {
   margin-left: 20px;
   margin-top: 40px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .media-block {
@@ -142,6 +148,7 @@ footer{
     justify-content:center;
     align-items: center;
 }
-.footer-content-block h2{
+.footer-content-block h3{
   color: #fff;
+  font-size: 20px;
 }
