@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Book</title>
 
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
 <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -21,14 +22,17 @@
   <header>
     <div class="header-content-block">
       <h1>DFRND</h1>
-      <h3> Portfolio </h3>
+      <h3> Portfolio <br>
+            F_David@hotmail.fr</h3>
+
+
 
     </div>
   </header>
 
 <section>
 
-<h2> Qui suis-je? </h2>
+
 
 <section id="bio">
   <div class="bio-content-block">
@@ -44,7 +48,7 @@
     <br>
     <p> Bonjour toi. C'est moi le David en question.
       Je suis étudiant à Bordeaux en Master 1 Design. Mes études
-      me passione, je passe mon temps à travailler, apprendre, lire, créer
+      me passionent, je passe mon temps à travailler, apprendre, lire, créer
       et puis quand je suis fatigué et que j'ai envie de décompresser j'aime boire des bières avec
       des potes et chiller. Comme disait Gainsbourg : "La connerie, c'est la décontraction de l'intelligence. Alors, parfois, je me permets d'être con sciemment."
     </p>
@@ -64,7 +68,8 @@
     <div class="image-left media-block">
 
     <div>
-      <h2>Typographie</h2>
+      <h2 class="fancy_title">Typographie</h2>
+
       <p> Alphabet en volume / <br>
           Feutre 0,5 / 3 mm <br>
           Travail sur le volume et les contours/ <br>
@@ -101,7 +106,7 @@
         <div class="image-left media-block">
 
         <div>
-          <h2>Typographie</h2>
+          <h2 class="fancy_title">Typographie</h2>
           <p> Création d'un visuel pour l'album All Wet <br> de Mr. Oizo / <br>
               travail typographique en volume/ <br>
               </p>
@@ -135,10 +140,10 @@
         </div>
         </div>
 
-        <div class="image-left media-block">
+        <div class="image-left media-block" id="illu">
 
         <div>
-          <h2>Illustration</h2>
+          <h2 class="fancy_title">Illustration</h2>
           <p> Dessin aux traits (fait main puis vectorisé) sur le thème de la musique/ <br>
               </p>
         </div>
@@ -150,7 +155,7 @@
       <div class="image-right media-block">
 
       <div>
-        <h2>Illustration</h2>
+        <h2 class="fancy_title">Illustration</h2>
         <p> Dessin satirique sur la société américaine / <br>
             </p>
       </div>
@@ -175,13 +180,14 @@
 
 
   </div>
-
-
-
-
-
 </footer>
-
+<script src="scripts/jquery-3.2.1.min.js"></script>
+<script src="scripts/jquery.lettering-0.6.1.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".fancy_title").lettering();
+});
+</script>
 
 
 
